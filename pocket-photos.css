@@ -1,0 +1,102 @@
+.pal {
+    color: #593829;
+    color: #8E5C3B;
+    color: #E8A143;
+    color: #5A7387;
+    color: #C3AF4E;
+    color: #E5DCCB;
+}
+html {
+    height:100%;
+}
+body {
+    height: 100%;
+    background-color: #593829;
+}
+.pocket-left {
+    position: absolute;
+    top:40% ;
+    left:10% ;
+    width: 27%;
+    height: 50%;
+    background-image: linear-gradient(45deg, #5A7387 48%, transparent 50%);
+    box-shadow: -5px 5px 5px 0px black;
+    border: 3px dashed #8E5C3B;
+    border-radius: 0 0 0 10%;
+    border-top: none;
+    border-right: none;
+}
+.pocket-right {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 27%;
+    height: 50%;
+    background-image: linear-gradient(-45deg, #8E5C3B 48%, transparent 50%);
+    box-shadow: 5px 5px 5px 0px black;
+    border: 3px dashed #5A7387;
+    border-radius: 0 0 10% 0;
+    border-top: none;
+    border-left: none;
+}
+body div img {
+    width: 90%;
+    position: absolute;
+    bottom: 5%;
+    height: 150%;
+}
+.pocket-left img {
+    left: 10%;
+    border: 20px solid #E5DCCB;
+    transform-origin: left bottom;
+    box-shadow: 0 0 3px 3px #5A7387;
+}
+.pocket-left img:nth-child(1) {
+    transform: rotate(-6deg);
+}
+.pocket-left img:nth-child(2) {
+    transform: rotate(-1.5deg);
+}
+.pocket-left img:nth-child(3) {
+    transform: rotate(3.5deg);
+}
+.pocket-right img {
+    right: 10%;
+    border: 20px solid #E8A143;
+    transform-origin: right bottom;
+    box-shadow: 0 0 3px 3px #8E5C3B;
+}
+.pocket-right img:nth-child(1) {
+    transform: rotate(6deg);
+}
+.pocket-right img:nth-child(2) {
+    transform: rotate(1.5deg);
+}
+.pocket-right img:nth-child(3) {
+    transform: rotate(-3.5deg);
+}
+.pocket-left .top {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    height: 90%;
+    background-image: linear-gradient(45deg, #5A7387 47%, transparent 51%);
+    box-shadow: -5px 5px 5px 0px black;
+    border: 3px dashed #8E5C3B;
+    border-radius: 0 0 0 10%;
+    border-top: none;
+    border-right: none;
+}
+.pocket-right .top {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 90%;
+    height: 90%;
+    background-image: linear-gradient(-45deg, #8E5C3B 47%, transparent 51%);
+    box-shadow: 5px 5px 5px 0px black;
+    border: 3px dashed #5A7387;
+    border-radius:0 0 10% 0;
+    border-top: none;
+    border-left: none;
+}
